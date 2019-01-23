@@ -1,7 +1,8 @@
-import {SET_INITIAL_CONTENT} from '.././types'
+import {SET_INITIAL_CONTENT, SET_BRANDS} from '.././types';
 
 const initialState ={
-    content: {}
+    content: {},
+    brands:{},
 };
 
 export default function (state=initialState, action) {
@@ -11,6 +12,12 @@ export default function (state=initialState, action) {
             return{
                 ...state,
                 content: action.payload
+            };
+
+        case SET_BRANDS:
+            return{
+                ...state,
+                brands: action.payload
             };
 
         default:
