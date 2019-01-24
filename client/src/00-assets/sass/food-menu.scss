@@ -59,18 +59,26 @@
         color: red;
         text-transform: uppercase;
         margin-bottom: 15px;
+
+        @media only screen and(min-width: 1440px) {
+          font-size: 6em;;
+        }
+
       }
 
       .name{
         font-size: 2em;
         color: black;
         font-weight: bolder;
+        @media only screen and(min-width: 1440px) {
+          font-size: 3em;
+        }
       }
 
       .text{
         font-size: 16px;
         color: black;
-        margin-bottom: 20px;
+        //margin-bottom: 20px;
       }
 
       .price{
@@ -93,12 +101,18 @@
         color: red;
         text-transform: uppercase;
         margin-bottom: 15px;
+        @media only screen and(min-width: 1440px) {
+          font-size: 6em;;
+        }
       }
 
       .name{
         font-size: 2em;
         color: black;
         font-weight: bolder;
+        @media only screen and(min-width: 1440px) {
+          font-size: 3em;
+        }
       }
 
       .text{
@@ -131,6 +145,18 @@
     .logo{
       width: 10em;
       margin: 0 2em;
+
+      @media only screen and(min-width: 768px) {
+        width: 15em;
+      }
+
+      @media only screen and(min-width: 1024px) {
+        width: 20em;
+      }
+
+      @media only screen and(min-width: 1440px) {
+        width: 36em;
+      }
     }
   }
 
