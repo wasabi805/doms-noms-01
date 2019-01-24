@@ -76,16 +76,7 @@ export const INITIAL_STATE = Map({
 
     gallery: Map({
         title: 'Gallery',
-        settings: {
-            className: 'center',
-            centerMode: true,
-            infinite: true,
-            lazyLoad: true,
-            slidesToShow: 3,
-            speed: 500,
-            adaptiveHeight: false,
 
-        },
         images: [
             '/static/media/chicken.1e537c45.jpg',
             '/static/media/ribs.83d5a663.jpg',
@@ -96,8 +87,37 @@ export const INITIAL_STATE = Map({
             '/static/media/rig.5cb8416e.jpg',
             '/static/media/spice.1768228e.jpg',
         ]
+    }),
 
+    about_us: Map({
+        domino: '/static/media/domino.84b6a9e8.jpg',
+        text: 'Stuff About Domino'
+    }),
 
+    contact: Map({
+        form: Map({
+            name: Map({
+                input: '',
+                hasError: false,
+            }),
+            phone: Map({
+                input: '',
+                hasError: false,
+            }),
+            email: Map({
+                input: '',
+                hasError: false,
+            }),
+            subject: Map({
+                input: '',
+                hasError: false,
+            }),
+            message: Map({
+                input: '',
+                hasError: false,
+            }),
+        }),
+        error: '',
     }),
 
     testArr: [1,2,3,4]

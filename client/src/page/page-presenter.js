@@ -1,12 +1,14 @@
 import React from 'react';
 
 import HeaderContainer      from '../header/header-container';
-
 import HeroContainer        from '../hero/hero-container';
 import StoryContainer       from '../story/story-container';
 import ServicesContainer       from '../services/services-container';
 import FoodMenu                 from '../food-menu/food-menu-container';
-import GalleryContainer         from '../gallery/gallery-container'
+import GalleryContainer         from '../gallery/gallery-container';
+import AboutUsContainer     from '../about-us/about-us-container';
+import ContactContainer     from '../contact/contact-contianer'
+
 
 const Presenter = (props) => {
     // console.log(props, 'here we go');
@@ -18,6 +20,8 @@ const Presenter = (props) => {
             <ServicesContainer/>
             <FoodMenu/>
             <GalleryContainer/>
+            <AboutUsContainer/>
+            <ContactContainer/>
         </div>
     );
 };

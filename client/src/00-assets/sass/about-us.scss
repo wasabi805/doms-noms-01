@@ -1,0 +1,50 @@
+.about-us{
+  background-color: #3e4041;
+
+  .title{
+    font-family: Standaris;
+    font-size: 6em;
+    color: white;
+    align-self: center;
+
+    @media only screen and(min-width: 768px) {
+      font-size: 5em;
+    }
+  }
+
+  .text{
+    margin: 0 5em;
+    font-size: 1.1em;
+    line-height: 20px
+  }
+
+  .about-us-container{
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+
+    @media only screen and(min-width: 768px) {
+      flex-direction: row;
+    }
+
+  }
+
+  .profile_img{
+    background-color: pink;
+    width: 50%;
+    height: 100%;
+    align-self: center;
+    @media only screen and(min-width: 768px) {
+      align-self: baseline;
+    }
+  }
+
+  .text-container{
+    flex-grow: 1;
+    color: white;
+    padding-top: 2em;
+    background-color: #90a7b247;
+
+  }
+
+}

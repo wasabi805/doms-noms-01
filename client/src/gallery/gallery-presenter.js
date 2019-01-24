@@ -5,7 +5,7 @@ import ribs from '../../src/00-assets/img/ribs.jpg';
 import rig from '../../src/00-assets/img/rig.jpg';
 import spice from '../../src/00-assets/img/spice.jpg';
 
-const Presenter = ({title, settings, images}) => {
+const Presenter = ({title, images}) => {
 // console.log(chicken);
 
   return (

@@ -38,6 +38,16 @@
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/client/src/00-assets/sass/about-us.scss">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/client/src/00-assets/sass/contact.scss">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/client/src/00-assets/sass/food-menu.scss">
           <value>
             <PaintGroupHighlightMap />
@@ -99,6 +109,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/client/src/App.js">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/client/src/about-us/about-us-presenter.js">
           <value>
             <PaintGroupHighlightMap />
           </value>
@@ -219,6 +234,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/client/src/logic/types.js">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/client/src/logic/utils.js">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/client/src/logic/validation.js">
           <value>
             <PaintGroupHighlightMap />
           </value>
