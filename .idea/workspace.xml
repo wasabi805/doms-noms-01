@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8b4ec90-0650-4670-92a1-8aac6bef168e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/StickySelectionHighlights.xml" afterPath="$PROJECT_DIR$/.idea/StickySelectionHighlights.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/client/src/00-assets/styles/header.scss" afterPath="$PROJECT_DIR$/client/src/00-assets/styles/header.scss" />
-      <change beforePath="$PROJECT_DIR$/client/src/00-assets/styles/main.scss" afterPath="$PROJECT_DIR$/client/src/00-assets/styles/main.scss" />
-      <change beforePath="$PROJECT_DIR$/client/src/00-assets/styles/page.scss" afterPath="$PROJECT_DIR$/client/src/00-assets/styles/page.scss" />
-      <change beforePath="$PROJECT_DIR$/client/src/header/header-presenter.js" afterPath="$PROJECT_DIR$/client/src/header/header-presenter.js" />
-      <change beforePath="$PROJECT_DIR$/client/src/logic/selectors.js" afterPath="$PROJECT_DIR$/client/src/logic/selectors.js" />
-      <change beforePath="$PROJECT_DIR$/client/src/page/page-presenter.js" afterPath="$PROJECT_DIR$/client/src/page/page-presenter.js" />
+      <change beforePath="$PROJECT_DIR$/client/src/00-assets/styles/hero.scss" afterPath="$PROJECT_DIR$/client/src/00-assets/styles/hero.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,8 +43,8 @@
           <file leaf-file-name="hero.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/client/src/00-assets/styles/hero.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="248">
-                  <caret line="157" column="0" lean-forward="true" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+                <state relative-caret-position="115">
+                  <caret line="135" column="21" lean-forward="false" selection-start-line="135" selection-start-column="21" selection-end-line="135" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -387,12 +380,12 @@
       <updated>1548268501633</updated>
       <workItem from="1548268502866" duration="340000" />
       <workItem from="1548268857218" duration="365000" />
-      <workItem from="1548269657625" duration="22997000" />
+      <workItem from="1548269657625" duration="23066000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23702000" />
+    <option name="totallyTimeSpent" value="23771000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1152" y="-1057" width="1920" height="999" extended-state="0" />
@@ -728,8 +721,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/00-assets/styles/hero.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="157" column="0" lean-forward="true" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+        <state relative-caret-position="115">
+          <caret line="135" column="21" lean-forward="false" selection-start-line="135" selection-start-column="21" selection-end-line="135" selection-end-column="21" />
           <folding />
         </state>
       </provider>
