@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8b4ec90-0650-4670-92a1-8aac6bef168e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/services/offer-presenter.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/services/services-container.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/services/services-presenter.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/StickySelectionHighlights.xml" afterPath="$PROJECT_DIR$/.idea/StickySelectionHighlights.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/client/src/00-assets/sass/main.scss" afterPath="$PROJECT_DIR$/client/src/00-assets/sass/main.scss" />
       <change beforePath="$PROJECT_DIR$/client/src/logic/reducer/constants.js" afterPath="$PROJECT_DIR$/client/src/logic/reducer/constants.js" />
-      <change beforePath="$PROJECT_DIR$/client/src/logic/selectors.js" afterPath="$PROJECT_DIR$/client/src/logic/selectors.js" />
-      <change beforePath="$PROJECT_DIR$/client/src/page/page-presenter.js" afterPath="$PROJECT_DIR$/client/src/page/page-presenter.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.2235529">
+    <splitter split-orientation="horizontal" split-proportion="0.28210247">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
@@ -113,8 +105,8 @@
           <file leaf-file-name="constants.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/client/src/logic/reducer/constants.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="110">
-                  <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+                <state relative-caret-position="350">
+                  <caret line="75" column="4" lean-forward="false" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
                   <folding />
                 </state>
               </provider>
@@ -288,10 +280,10 @@
         <option value="$PROJECT_DIR$/client/src/page/page-presenter.js" />
         <option value="$PROJECT_DIR$/client/src/food-menu/footer.js" />
         <option value="$PROJECT_DIR$/client/src/food-menu/food-menu-container.js" />
-        <option value="$PROJECT_DIR$/client/src/logic/reducer/constants.js" />
         <option value="$PROJECT_DIR$/client/src/logic/selectors.js" />
         <option value="$PROJECT_DIR$/client/src/food-menu/food-menu-presenter.js" />
         <option value="$PROJECT_DIR$/client/src/food-menu/menu-column.js" />
+        <option value="$PROJECT_DIR$/client/src/logic/reducer/constants.js" />
       </list>
     </option>
   </component>
@@ -457,12 +449,12 @@
       <updated>1548268501633</updated>
       <workItem from="1548268502866" duration="340000" />
       <workItem from="1548268857218" duration="365000" />
-      <workItem from="1548269657625" duration="28519000" />
+      <workItem from="1548269657625" duration="28618000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29224000" />
+    <option name="totallyTimeSpent" value="29323000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1159" y="-1022" width="1920" height="999" extended-state="0" />
@@ -872,14 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/logic/reducer/constants.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/logic/selectors.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -920,6 +904,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
           <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/logic/reducer/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="75" column="4" lean-forward="false" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
           <folding />
         </state>
       </provider>

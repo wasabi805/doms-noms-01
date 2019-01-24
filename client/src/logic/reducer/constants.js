@@ -74,8 +74,6 @@ export const INITIAL_STATE = Map({
 
     food_menu_footer: {logo: '../../public/bin/img/logo.png' , text: ' * All prices include taxes *' },
 
-
-
     testArr: [1,2,3]
 });
 
