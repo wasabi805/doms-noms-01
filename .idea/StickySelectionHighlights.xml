@@ -18,6 +18,16 @@
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/client/src/00-assets/css/stylesheet.css">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/client/src/00-assets/sass/story.scss">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/client/src/00-assets/styles/constants/colors.scss">
           <value>
             <PaintGroupHighlightMap />
@@ -44,6 +54,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/client/src/00-assets/styles/page.scss">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/client/src/00-assets/styles/story.scss">
           <value>
             <PaintGroupHighlightMap />
           </value>
@@ -108,6 +123,11 @@
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/client/src/logic/reducer/constants.js">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/client/src/logic/reducer/reducer.js">
           <value>
             <PaintGroupHighlightMap />
@@ -159,6 +179,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/client/src/store.js">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/client/src/story/story-container.js">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/client/src/story/story-presenter.js">
           <value>
             <PaintGroupHighlightMap />
           </value>

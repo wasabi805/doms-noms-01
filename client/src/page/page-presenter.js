@@ -3,6 +3,7 @@ import React from 'react';
 import HeaderContainer      from '../header/header-container'
 
 import HeroContainer        from '../hero/hero-container';
+import StoryContainer       from '../story/story-container'
 
 const Presenter = (props) => {
     // console.log(props, 'here we go');
@@ -10,6 +11,7 @@ const Presenter = (props) => {
         <div className="page">
             <HeaderContainer/>
             <HeroContainer/>
+            <StoryContainer/>
         </div>
     );
 };

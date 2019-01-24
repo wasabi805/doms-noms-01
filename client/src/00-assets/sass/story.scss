@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Deadmobil';
+  src: url('.././fonts/Deadmobil.woff2') format('woff2'),
+  url('.././fonts/Deadmobil.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.story {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 50%;
+  background-image: url("https://static.wixstatic.com/media/9fdacc_e94ecb348e7e4900bc174cee7fcca59d.jpg/v1/fill/w_320,h_584,al_c,q_80,usm_0.66_1.00_0.01/9fdacc_e94ecb348e7e4900bc174cee7fcca59d.webp");
+
+
+  &-overlay {
+    padding: 4rem 5rem;
+    background-color: hsla(37, 10%, 92%, 0.86);
+    border: 4px solid #282b2e;
+    p{
+      font-family: Leafy;
+      font-size: 3em;
+    }
+  }
+
+  &-title {
+    font-family: Deadmobil;
+    color: $black;
+    font-size: 5rem;
+    margin-bottom: 4rem;
+
+    @include tablet {
+      font-size: 6rem;
+      max-width: $MAX_WIDTH;
+      margin: 4rem auto 8rem;
+    }
+
+
+  }
+
+  &-text {
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    text-align: center;
+    max-width: $MAX_WIDTH;
+    color: $red;
+    margin: 4rem auto;
+  }
+}
