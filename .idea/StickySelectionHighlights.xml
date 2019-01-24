@@ -88,6 +88,11 @@
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/client/src/logic/reducer/reducer.js">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/client/src/logic/reducers/constants.js">
           <value>
             <PaintGroupHighlightMap />

@@ -4,7 +4,8 @@ import logo from '../00-assets/img/logo.min.png'
 import SocialContainer from './social/social-container';
 // import NavContainer from '../nav/nav-container';
 
-const Presenter = () => {
+const Presenter = (props) => {
+    console.log(props, 'wil this work?');
     return (
         <header className="page-header">
             <div className="logo-area">
