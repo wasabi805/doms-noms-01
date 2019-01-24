@@ -5,7 +5,6 @@ const set = ({value, path}) => ({type: 'SET_FORM_FIELD', path, value});
 
 export const setMenuIsOpen = (bool = false) => set({path: ['nav', 'isOpen'], value: bool});
 
-
 export const setFormField = (string = '', field) => set({
     path: ['contact', 'form', field, 'input'],
     value: clipAndStrip(string, Validations[field].invalid, Validations[field].max),
