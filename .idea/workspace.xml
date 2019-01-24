@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8b4ec90-0650-4670-92a1-8aac6bef168e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/public/css/bootstrap-theme.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/public/css/bootstrap-theme.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/public/css/bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/public/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/public/js/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/public/js/bootstrap.min.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/StickySelectionHighlights.xml" afterPath="$PROJECT_DIR$/.idea/StickySelectionHighlights.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/client/public/css/stylesheet.css" afterPath="$PROJECT_DIR$/client/public/css/custom-fonts-stylesheet.css" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" afterPath="$PROJECT_DIR$/client/public/index.html" />
-      <change beforePath="$PROJECT_DIR$/client/src/00-assets/sass/about-us.scss" afterPath="$PROJECT_DIR$/client/src/00-assets/sass/about-us.scss" />
-      <change beforePath="$PROJECT_DIR$/client/src/00-assets/sass/contact.scss" afterPath="$PROJECT_DIR$/client/src/00-assets/sass/contact.scss" />
       <change beforePath="$PROJECT_DIR$/client/src/00-assets/sass/main.scss" afterPath="$PROJECT_DIR$/client/src/00-assets/sass/main.scss" />
-      <change beforePath="$PROJECT_DIR$/client/src/contact/contact-presenter.js" afterPath="$PROJECT_DIR$/client/src/contact/contact-presenter.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -81,21 +69,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/client/src/00-assets/sass/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="571">
-                  <caret line="44" column="25" lean-forward="false" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/client/public/css/bootstrap.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="404">
-                  <caret line="757" column="3" lean-forward="true" selection-start-line="757" selection-start-column="3" selection-end-line="757" selection-end-column="3" />
+                <state relative-caret-position="205">
+                  <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
                   <folding />
                 </state>
               </provider>
@@ -201,8 +179,8 @@
       <find>story</find>
       <find>.form</find>
       <find>contact-form</find>
-      <find>form</find>
       <find>.form-gr</find>
+      <find>form</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -259,9 +237,9 @@
         <option value="$PROJECT_DIR$/client/public/index.html" />
         <option value="$PROJECT_DIR$/client/src/00-assets/sass/about-us.scss" />
         <option value="$PROJECT_DIR$/client/src/contact/contact-presenter.js" />
-        <option value="$PROJECT_DIR$/client/src/00-assets/sass/main.scss" />
         <option value="$PROJECT_DIR$/client/src/00-assets/sass/contact.scss" />
         <option value="$PROJECT_DIR$/client/public/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/client/src/00-assets/sass/main.scss" />
       </list>
     </option>
   </component>
@@ -422,12 +400,12 @@
       <workItem from="1548268502866" duration="340000" />
       <workItem from="1548268857218" duration="365000" />
       <workItem from="1548269657625" duration="46378000" />
-      <workItem from="1548323984911" duration="17724000" />
+      <workItem from="1548323984911" duration="17872000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64807000" />
+    <option name="totallyTimeSpent" value="64955000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1209" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -804,14 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/00-assets/sass/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="44" column="25" lean-forward="false" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/00-assets/sass/contact.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2601">
@@ -822,8 +792,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/public/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="757" column="3" lean-forward="true" selection-start-line="757" selection-start-column="3" selection-end-line="757" selection-end-column="3" />
+        <state relative-caret-position="3441">
+          <caret line="751" column="21" lean-forward="true" selection-start-line="751" selection-start-column="21" selection-end-line="751" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/00-assets/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
           <folding />
         </state>
       </provider>
