@@ -33,6 +33,11 @@
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/client/src/00-assets/sass/gallery.scss">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/client/src/00-assets/sass/main.scss">
           <value>
             <PaintGroupHighlightMap />
@@ -104,6 +109,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/client/src/food-menu/menu-column.js">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/client/src/gallery/gallery-container.js">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/client/src/gallery/gallery-presenter.js">
           <value>
             <PaintGroupHighlightMap />
           </value>

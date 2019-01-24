@@ -74,6 +74,30 @@ export const INITIAL_STATE = Map({
 
     food_menu_footer: {logo: '../../public/bin/img/logo.png' , text: ' * All prices include taxes *' },
 
+    gallery: Map({
+        title: 'Gallery',
+        settings: {
+            className: 'center',
+            centerMode: true,
+            infinite: true,
+            lazyLoad: true,
+            slidesToShow: 3,
+            speed: 500,
+            adaptiveHeight: false,
+
+        },
+        images: [
+            '/static/media/chicken.1e537c45.jpg',
+            '/static/media/ribs.83d5a663.jpg',
+            '/static/media/rig.5cb8416e.jpg',
+            '/static/media/spice.1768228e.jpg',
+            '/static/media/chicken.1e537c45.jpg',
+            '/static/media/ribs.83d5a663.jpg',
+            '/static/media/rig.5cb8416e.jpg',
+            '/static/media/spice.1768228e.jpg',
+        ]
+    }),
+
     testArr: [1,2,3]
 });
 
