@@ -97,9 +97,10 @@ export const INITIAL_STATE = Map({
             '/static/media/spice.1768228e.jpg',
         ]
 
+
     }),
 
-    testArr: [1,2,3]
+    testArr: [1,2,3,4]
 });
 
 
