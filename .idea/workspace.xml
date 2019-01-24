@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8b4ec90-0650-4670-92a1-8aac6bef168e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/StickySelectionHighlights.xml" afterPath="$PROJECT_DIR$/.idea/StickySelectionHighlights.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" afterPath="$PROJECT_DIR$/client/public/index.html" />
-      <change beforePath="$PROJECT_DIR$/client/src/00-assets/styles/constants/colors.scss" afterPath="$PROJECT_DIR$/client/src/00-assets/sass/constants/colors.scss" />
-      <change beforePath="$PROJECT_DIR$/client/src/00-assets/styles/constants/width.scss" afterPath="$PROJECT_DIR$/client/src/00-assets/sass/constants/width.scss" />
-      <change beforePath="$PROJECT_DIR$/client/src/00-assets/styles/header.scss" afterPath="$PROJECT_DIR$/client/src/00-assets/sass/header.scss" />
-      <change beforePath="$PROJECT_DIR$/client/src/00-assets/styles/hero.scss" afterPath="$PROJECT_DIR$/client/src/00-assets/sass/hero.scss" />
-      <change beforePath="$PROJECT_DIR$/client/src/00-assets/styles/index.css" afterPath="$PROJECT_DIR$/client/src/00-assets/sass/index.css" />
-      <change beforePath="$PROJECT_DIR$/client/src/00-assets/styles/main.scss" afterPath="$PROJECT_DIR$/client/src/00-assets/sass/main.scss" />
-      <change beforePath="$PROJECT_DIR$/client/src/00-assets/styles/page.scss" afterPath="$PROJECT_DIR$/client/src/00-assets/sass/page.scss" />
-      <change beforePath="$PROJECT_DIR$/client/src/header/social/link-presenter.js" afterPath="$PROJECT_DIR$/client/src/header/social/link-presenter.js" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" afterPath="$PROJECT_DIR$/client/src/index.js" />
-      <change beforePath="$PROJECT_DIR$/client/src/logic/reducer/constants.js" afterPath="$PROJECT_DIR$/client/src/logic/reducer/constants.js" />
-      <change beforePath="$PROJECT_DIR$/client/src/logic/selectors.js" afterPath="$PROJECT_DIR$/client/src/logic/selectors.js" />
-      <change beforePath="$PROJECT_DIR$/client/src/main.js" afterPath="$PROJECT_DIR$/client/src/main.js" />
-      <change beforePath="$PROJECT_DIR$/client/src/page/page-presenter.js" afterPath="$PROJECT_DIR$/client/src/page/page-presenter.js" />
+      <change beforePath="$PROJECT_DIR$/client/public/css/stylesheet.css" afterPath="$PROJECT_DIR$/client/public/css/stylesheet.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -88,8 +73,8 @@
           <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/client/public/css/stylesheet.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="203">
-                  <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="30" selection-end-column="1" />
+                <state relative-caret-position="144">
+                  <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
@@ -287,6 +272,7 @@
         <option value="$PROJECT_DIR$/client/src/00-assets/css/stylesheet.css" />
         <option value="$PROJECT_DIR$/client/public/index.html" />
         <option value="$PROJECT_DIR$/client/src/00-assets/sass/story.scss" />
+        <option value="$PROJECT_DIR$/client/public/css/stylesheet.css" />
       </list>
     </option>
   </component>
@@ -461,12 +447,12 @@
       <updated>1548268501633</updated>
       <workItem from="1548268502866" duration="340000" />
       <workItem from="1548268857218" duration="365000" />
-      <workItem from="1548269657625" duration="24809000" />
+      <workItem from="1548269657625" duration="24897000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25514000" />
+    <option name="totallyTimeSpent" value="25602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1152" y="-1057" width="1920" height="999" extended-state="0" />
@@ -826,18 +812,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/public/css/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="30" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/public/css/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding />
         </state>
       </provider>
