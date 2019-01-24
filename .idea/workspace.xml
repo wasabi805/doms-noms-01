@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8b4ec90-0650-4670-92a1-8aac6bef168e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/StickySelectionHighlights.xml" afterPath="$PROJECT_DIR$/.idea/StickySelectionHighlights.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/client/config/webpack.config.js" afterPath="$PROJECT_DIR$/client/config/webpack.config.js" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" afterPath="$PROJECT_DIR$/client/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" afterPath="$PROJECT_DIR$/client/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -121,8 +117,8 @@
           <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/client/config/webpack.config.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="287">
-                  <caret line="316" column="17" lean-forward="false" selection-start-line="316" selection-start-column="17" selection-end-line="316" selection-end-column="17" />
+                <state relative-caret-position="431">
+                  <caret line="322" column="25" lean-forward="false" selection-start-line="322" selection-start-column="25" selection-end-line="322" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -304,12 +300,6 @@
               <item name="doms-noms-01" type="b2602c69:ProjectViewProjectNode" />
               <item name="doms-noms-01" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doms-noms-01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doms-noms-01" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -368,12 +358,12 @@
       <updated>1548268501633</updated>
       <workItem from="1548268502866" duration="340000" />
       <workItem from="1548268857218" duration="365000" />
-      <workItem from="1548269657625" duration="38818000" />
+      <workItem from="1548269657625" duration="39050000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39523000" />
+    <option name="totallyTimeSpent" value="39755000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1199" y="-1057" width="1920" height="999" extended-state="0" />
@@ -817,8 +807,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/config/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="316" column="17" lean-forward="false" selection-start-line="316" selection-start-column="17" selection-end-line="316" selection-end-column="17" />
+        <state relative-caret-position="431">
+          <caret line="322" column="25" lean-forward="false" selection-start-line="322" selection-start-column="25" selection-end-line="322" selection-end-column="25" />
           <folding />
         </state>
       </provider>
