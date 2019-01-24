@@ -1,0 +1,69 @@
+.services {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  background-image: url("https://static.wixstatic.com/media/4a55c2_cee5e4ed32bd46e299e465258ce33b4b~mv2_d_2988_2988_s_4_2.jpg/v1/fill/w_980,h_826,al_c,q_85,usm_0.66_1.00_0.01/4a55c2_cee5e4ed32bd46e299e465258ce33b4b~mv2_d_2988_2988_s_4_2.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  @include tablet {
+    padding: 8rem 0;
+  }
+
+  &-container {
+    font-family: Leafy;
+    max-width: $MAX_WIDTH;
+    width: 100%;
+    margin: 3rem;
+    padding: 3rem 3rem 2rem;
+    background-color: rgba(0, 0, 0, .8);
+
+    .title {
+      font-family: Deadmobil;
+      font-size: 3.6rem;
+
+      @include tablet {
+        font-size: 6rem;
+      }
+    }
+
+    .offer-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin-top: 4rem;
+
+      @include tablet {
+        margin-top: 8rem;
+        flex-direction: row;
+      }
+
+      .offer {
+        flex: 1 0;
+        width: 100%;
+        font-size: 2.2rem;
+        line-height: 3rem;
+        margin: 0 3% 4rem;
+
+        &-number {
+          color: #e0aa30;
+          font-size: 2em;
+        }
+
+        &-title {
+          margin-bottom: 4rem;
+          hr {
+            width: 40%;
+          }
+        }
+
+        &-description {
+          p{
+            font-size: 3em;
+          }
+        }
+      }
+    }
+  }
+}

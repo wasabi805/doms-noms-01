@@ -1,0 +1,162 @@
+.food-menu{
+  background-color: #282b2e;
+  //padding: 1em;
+}
+
+.food-menu-container{
+  display: flex;
+  flex-flow: row wrap; //Magic part I
+  margin:30px;
+
+  //added1
+  flex-direction:column;
+  border:1px #cf0909 solid;
+  padding:5px; /* this */
+
+
+
+  //ch1  ------------------------
+  .header{
+    background-color: #ffffff;
+    padding: 2em 0;
+
+
+    .title{
+      color: black;
+      font-size: 6em;
+      font-weight: bolder;
+      margin-bottom: 12px;
+    }
+
+    p{
+      color: black;
+      font-size: 1.3em;
+      text-transform: uppercase;
+    }
+  }
+
+
+  //ch2 ------------------------
+
+  .food-menu-body{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+
+
+
+    .column-left{
+      flex-grow: 1; //Magic part III a
+      padding: 2.5em;
+      text-align: center;
+      background-color: #ffffff;
+
+      .title{
+        font-family: Standaris;
+        display: inline-block;
+        font-weight: bolder;
+        font-size: 4em;
+        color: red;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+      }
+
+      .name{
+        font-size: 2em;
+        color: black;
+        font-weight: bolder;
+      }
+
+      .text{
+        font-size: 16px;
+        color: black;
+        margin-bottom: 20px;
+      }
+
+      .price{
+        color: black;
+      }
+    }
+
+
+    .column-right{
+      flex-grow: 1; //Magic part III a
+      padding: 2.5em;
+      text-align: center;
+      background-color: #ffffff;
+
+      .title{
+        font-family: Standaris;
+        display: inline-block;
+        font-weight: bolder;
+        font-size: 4em;
+        color: red;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+      }
+
+      .name{
+        font-size: 2em;
+        color: black;
+        font-weight: bolder;
+      }
+
+      .text{
+        font-size: 16px;
+        color: black;
+        margin-bottom: 20px;
+      }
+
+      .price{
+        color: black;
+
+      }
+    }
+  }
+
+
+  //ch3
+  .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding-bottom: 25px;
+
+    .text{
+      color: black;
+      margin-bottom: 1em;
+    }
+
+    .logo{
+      width: 10em;
+      margin: 0 2em;
+    }
+  }
+
+}
+
+
+//Magic part II
+.food-menu-container >*{
+  //flex: 1 100%;
+
+  //added2
+  flex:1 1 auto;
+  //border:1px red solid;
+  text-align:center;
+  //margin:5px;  /* and that, will result in a 10px gap */
+}
+
+
+
+@media all and (min-width: 600px) {
+  .column { flex: 1 0 0; }
+}
+
+//Magic part IV
+@media all and (min-width: 800px) {
+  .column-left { order: 2; }
+  .column-right { order: 3; }
+  .footer  { order: 4; }
+}
