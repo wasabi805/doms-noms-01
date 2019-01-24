@@ -31,10 +31,8 @@ html {
         }
       }
 
-      @import "page";
-      @include page;
       @import "header";
-      @include header;
+      @import "hero";
 
     }
   }

@@ -33,6 +33,11 @@
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/client/src/00-assets/styles/hero.scss">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/client/src/00-assets/styles/main.scss">
           <value>
             <PaintGroupHighlightMap />
@@ -58,6 +63,11 @@
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/client/src/header/hero/hero-container.js">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/client/src/header/social/link-presenter.js">
           <value>
             <PaintGroupHighlightMap />
@@ -69,6 +79,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/client/src/header/social/social-presenter.js">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/client/src/hero/hero-container.js">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/client/src/hero/hero-presenter.js">
           <value>
             <PaintGroupHighlightMap />
           </value>
