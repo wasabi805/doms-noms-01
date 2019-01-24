@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8b4ec90-0650-4670-92a1-8aac6bef168e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/StickySelectionHighlights.xml" afterPath="$PROJECT_DIR$/.idea/StickySelectionHighlights.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/client/src/00-assets/sass/main.scss" afterPath="$PROJECT_DIR$/client/src/00-assets/sass/main.scss" />
       <change beforePath="$PROJECT_DIR$/client/src/logic/reducer/constants.js" afterPath="$PROJECT_DIR$/client/src/logic/reducer/constants.js" />
-      <change beforePath="$PROJECT_DIR$/client/src/logic/selectors.js" afterPath="$PROJECT_DIR$/client/src/logic/selectors.js" />
-      <change beforePath="$PROJECT_DIR$/client/src/page/page-presenter.js" afterPath="$PROJECT_DIR$/client/src/page/page-presenter.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,8 +43,8 @@
           <file leaf-file-name="constants.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/client/src/logic/reducer/constants.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="438">
-                  <caret line="96" column="47" lean-forward="false" selection-start-line="96" selection-start-column="47" selection-end-line="96" selection-end-column="47" />
+                <state relative-caret-position="385">
+                  <caret line="98" column="8" lean-forward="false" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
                   <folding />
                 </state>
               </provider>
@@ -102,8 +97,8 @@
           <file leaf-file-name="gallery-presenter.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/client/src/gallery/gallery-presenter.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="84">
-                  <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+                <state relative-caret-position="196">
+                  <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -285,12 +280,12 @@
       <updated>1548268501633</updated>
       <workItem from="1548268502866" duration="340000" />
       <workItem from="1548268857218" duration="365000" />
-      <workItem from="1548269657625" duration="33739000" />
+      <workItem from="1548269657625" duration="33944000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34444000" />
+    <option name="totallyTimeSpent" value="34649000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1197" y="-1053" width="1920" height="999" extended-state="0" />
@@ -725,16 +720,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/gallery/gallery-presenter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="196">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/logic/reducer/constants.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="96" column="47" lean-forward="false" selection-start-line="96" selection-start-column="47" selection-end-line="96" selection-end-column="47" />
+        <state relative-caret-position="385">
+          <caret line="98" column="8" lean-forward="false" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
           <folding />
         </state>
       </provider>

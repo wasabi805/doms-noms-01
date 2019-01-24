@@ -96,6 +96,7 @@ export const INITIAL_STATE = Map({
             '/static/media/rig.5cb8416e.jpg',
             '/static/media/spice.1768228e.jpg',
         ]
+
     }),
 
     testArr: [1,2,3]
