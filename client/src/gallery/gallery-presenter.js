@@ -1,10 +1,10 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
-// import chicken from '../00-assets/img/chicken.jpg';
+
 
 
 const Presenter = ({title, settings, images}) => {
-  // console.log(chicken, 'whats the chicken path?');
+
 
   return (
     <React.Fragment>
