@@ -5,6 +5,7 @@
     margin: 0 5em;
     font-size: 1.1em;
     line-height: 20px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 
     @media only screen and(min-width: 1024px) {
       font-size: 1.4em;
@@ -46,6 +47,7 @@
       font-size: 4em;
       color: white;
       align-self: center;
+      text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 
       @media only screen and(min-width: 768px) {
         font-size: 5em;

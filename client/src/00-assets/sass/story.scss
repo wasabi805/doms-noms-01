@@ -4,12 +4,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 50%;
-  background-image: url("https://static.wixstatic.com/media/9fdacc_e94ecb348e7e4900bc174cee7fcca59d.jpg/v1/fill/w_320,h_584,al_c,q_80,usm_0.66_1.00_0.01/9fdacc_e94ecb348e7e4900bc174cee7fcca59d.webp");
+  background-image: url("https://i.ibb.co/8c6L6SF/annie-spratt-370971-unsplash-horizontal.jpg");
 
 
   &-overlay {
     padding: 4rem 5rem;
-    background-color: hsla(37, 10%, 92%, 0.86);
+    background-color: rgba(237, 235, 233, 0.09);
     border: 4px solid #282b2e;
     p{
       font-family: Leafy;
@@ -19,9 +19,10 @@
 
   &-title {
     font-family: Deadmobil;
-    color: $black;
+    color: #131111;
     font-size: 5rem;
     margin-bottom: 4rem;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.1);
 
     @include tablet {
       font-size: 6rem;
@@ -37,7 +38,9 @@
     line-height: 2.6rem;
     text-align: center;
     max-width: $MAX_WIDTH;
-    color: $red;
+    //color: #d60202;
+    color: #ece6e6;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
     margin: 4rem auto;
   }
 }

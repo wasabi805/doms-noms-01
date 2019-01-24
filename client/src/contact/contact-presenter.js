@@ -7,6 +7,9 @@ import TextAreaContainer from './inputs/textarea-container';
 const Presenter = ({error, phone}) => {
   return (
     <section className="contact">
+      <div className='contact-overlay'>
+
+      </div>
       <form autoComplete="on" className="contact-form">
         <div className="form-inputs">
           <div className="left">

@@ -3,6 +3,11 @@
   <component name="StickySelectionHighlights">
     <option name="editorHighlights">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/.gitignore">
           <value>
             <PaintGroupHighlightMap />
@@ -119,6 +124,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/client/src/about-us/about-us-presenter.js">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/client/src/contact/contact-presenter.js">
           <value>
             <PaintGroupHighlightMap />
           </value>
