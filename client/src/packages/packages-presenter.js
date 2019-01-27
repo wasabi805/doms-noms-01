@@ -58,7 +58,6 @@ const Presenter = ({page_01_header,
                     <PackageCourse list={page_03a}/>
                     <h3>Option 2 of 2</h3>
                     <PackageCourse list={ page_03b}/>
-
                 </label>
 
                 {/*Page 4*/}
@@ -69,7 +68,6 @@ const Presenter = ({page_01_header,
                     <PackageHeader header={page_04_header}/>
                     <PackageCourse list={page_04}/>
                 </label>
-
 
                 {/*Page 5*/}
                 <label className="page" htmlFor="page-5">
@@ -96,5 +94,5 @@ const Presenter = ({page_01_header,
         </section>
     );
 };
-
+//
 export default Presenter;
