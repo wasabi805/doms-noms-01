@@ -15,9 +15,15 @@
     font-family: Leafy;
     max-width: $MAX_WIDTH;
     width: 100%;
-    margin: 3rem;
-    padding: 3rem 3rem 2rem;
+    margin: 1rem;
+    padding: 1rem 1rem 1rem;
+
     background-color: rgba(0, 0, 0, .8);
+
+    @media only screen and(min-width: 768px) {
+      margin: 3rem;
+      padding: 3rem 3rem 2rem;
+    }
 
     .title {
       font-family: Deadmobil;
@@ -42,7 +48,7 @@
       .offer {
         flex: 1 0;
         width: 100%;
-        font-size: 2.2rem;
+        font-size: 1.8rem;
         line-height: 3rem;
         margin: 0 3% 4rem;
 
@@ -56,7 +62,7 @@
             @media only screen and(min-width: 540px) {
               font-size: 1.8em;
             }
-            
+
           }
 
 

@@ -28,11 +28,16 @@ $moveRight : $tileWidth * ($growFactor - 1);
     text-align: center;
   }
 
+  h1{
+    font-family: Standaris, Arial;
+  }
+
   p{
     width: 100%;
     max-width: 500px;
     margin: auto;
   }
+
 
   a:link, a:hover, a:active, a:visited{
 
@@ -54,6 +59,11 @@ $moveRight : $tileWidth * ($growFactor - 1);
   .row{
     overflow: scroll;
     width: 100%;
+  }
+  //HIDE SCROLLBAR
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
   }
 
   .row__inner{

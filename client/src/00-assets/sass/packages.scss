@@ -1,0 +1,244 @@
+
+.packages{
+  .title{
+    position: absolute;
+    left: 52px;
+    top: 75px;
+    margin: 0;
+    font-family: Standaris;
+    font-size: 80px;
+    text-shadow: 2px 2px 4px #000;
+
+    //Vertical display
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+
+    //Text Shadow
+    -webkit-transform:scale(2,1); /* Safari and Chrome */
+    -moz-transform:scale(2,1); /* Firefox */
+    -ms-transform:scale(2,1); /* IE 9 */
+    -o-transform:scale(2,1); /* Opera */
+    transform:scale(2,1);
+
+    //vertical display
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+  }
+
+
+  background: linear-gradient(
+                  rgba(28, 64, 91, 0.5),
+                  rgba(28, 64, 91, 0.35)
+  ),url("https://i.ibb.co/hV7qXn4/moscow-mule-lg.jpg")  center no-repeat ;
+
+
+  justify-content: center;
+  padding: 2em;
+  border: 4px solid #282b2e;
+  display: none;
+  @media only screen and(min-width: 768px) {
+    display: flex;
+    position: relative;
+  }
+
+}
+
+
+.book {
+  width: 150em;
+  max-width: 100%;
+  min-height: 124vh;
+  //max-height: 90vh;
+  position: relative;
+  perspective: 1500px;
+  user-select: none;
+
+}
+
+.page {
+
+  img{
+    width: 5em;
+    margin: 0 auto;
+  }
+
+  .blank{
+    display: none;
+  }
+
+  .underline{
+    text-decoration: underline;
+    color: red;
+    margin-bottom: 2rem;
+  }
+
+  display: flex;
+  width: 49%;
+  height: 98%;
+  padding: 20px;
+  position: absolute;
+  top: 1%;
+  left: 50%;
+  font-size: 16px;
+  line-height: 18px;
+  color: black;
+  background-color: #fefff9;
+  background-image: linear-gradient(to right, rgba(0,0,0,.15) 0%, rgba(0,0,0,0) 10%);
+  transition: transform .5s;
+  transform: rotateY(-180deg);
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transform-origin: left center;
+  z-index: 4;
+
+  &:nth-of-type(2n) {
+    left: 1px;
+    background-image: linear-gradient(to left, rgba(0,0,0,.12) 0%, rgba(0,0,0,0) 10%);
+    transform-origin: right center;
+    transform: rotateY(0);
+
+    &:not(.cover) {
+      left: calc(1% + 1px);
+    }
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  h2 + p::first-letter {
+    font-size: 44px;
+    float: left;
+    height: 44px;
+    line-height: 36px;
+    vertical-align: baseline;
+    margin-right: 6px;
+    border-radius: 5px;
+  }
+
+  //menu sections
+
+  .menu-type{
+    font-size: 19px;
+    line-height: 20px;
+    font-family: Arial;
+  }
+  .minimum{
+
+  }
+
+  .combo-name{
+    font-family: Standaris;
+    font-size: 24px;
+    line-height: 5px;
+    font-weight: bold;
+    color: red;
+  }
+
+  .food-list{
+    margin: 0;
+    margin-bottom: 1em;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .food-item{
+
+      font-size: 13px;
+      font-weight: 200;
+      list-style-type: none;
+    }
+  }
+
+  p{
+    font-size: 12px;
+    margin-bottom: 16px;
+  }
+
+
+
+
+}
+
+input[type=radio] {
+  display: none;
+}
+
+input:checked {
+  & ~ .page {
+    transform: rotateY(0);
+  }
+
+  & ~ .page:nth-of-type(2n) {
+    transform: rotateY(180deg);
+  }
+
+  & ~ .page:nth-of-type(2n-1) {
+    z-index: 3;
+  }
+
+  & ~ .page:nth-of-type(2n-1) ~ .page:nth-of-type(2n-1) {
+    z-index: 1;
+  }
+
+  & + .page + .page + input + .page {
+    z-index: 2 !important; // ugh...
+  }
+}
+
+.cover {
+  width: 50%;
+  height: 100%;
+  top: 0;
+  border-radius: 0 3px 3px 0;
+
+  //background-color: maroon;
+
+
+  h1 {
+    color: #decfac;
+    text-align: center;
+    text-shadow: -1px -1px 2px rgba(0,0,0,.5);
+    margin-top: 50%;
+    position: relative;
+
+
+    &::after {
+      content: "";
+      background: url("https://i.ibb.co/ypX4b2G/brown-leather-bg-1962-359.jpg");
+      display: block;
+      width: 60px;
+      position: absolute;
+      bottom: -20px;
+      margin-left: -30px;
+      left: 50%;
+      border-top: 1px solid #ec5757;
+      box-shadow: -1px -1px 2px rgba(0,0,0,.5);
+    }
+  }
+
+  & + .cover {
+    border-radius: 3px 0 0 3px;
+  }
+
+  &:first-of-type, &:last-of-type {
+    background-image: none;
+
+    &::before {
+      content: "";
+      width: calc(100% - 20px);
+      height: calc(100% - 20px);
+      border: 2px dashed rgba(0,0,0,.2);
+      background: url("https://i.ibb.co/ypX4b2G/brown-leather-bg-1962-359.jpg");
+      position: absolute;
+      top: 9px;
+      left: 9px;
+    }
+  }
+}
+
+
+

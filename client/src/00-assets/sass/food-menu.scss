@@ -6,20 +6,19 @@
 .food-menu-container{
   display: flex;
   flex-flow: row wrap; //Magic part I
-  margin:30px;
-
-  //added1
+  margin: 1rem;
   flex-direction:column;
   border:1px #cf0909 solid;
-  padding:5px; /* this */
+  padding:5px;
 
-
+  @media only screen and(min-width: 768px) {
+    margin:30px;
+  }
 
   //ch1  ------------------------
   .header{
     background-color: #ffffff;
     padding: 2em 0;
-
 
     .title{
       color: black;

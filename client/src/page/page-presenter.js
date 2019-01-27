@@ -7,7 +7,8 @@ import ServicesContainer       from '../services/services-container';
 import FoodMenu                 from '../food-menu/food-menu-container';
 import GalleryContainer         from '../gallery/gallery-container';
 import AboutUsContainer     from '../about-us/about-us-container';
-import ContactContainer     from '../contact/contact-contianer'
+import ContactContainer     from '../contact/contact-contianer';
+import PackagesContainer from '../packages/packages-container';
 
 
 const Presenter = (props) => {
@@ -19,6 +20,7 @@ const Presenter = (props) => {
             <StoryContainer/>
             <ServicesContainer/>
             <FoodMenu/>
+            <PackagesContainer/>
             <GalleryContainer/>
             <AboutUsContainer/>
             <ContactContainer/>
