@@ -30,7 +30,6 @@ const Presenter = () => {
             <a href='#contact'>
                 <a>Contact</a>
             </a>
-
         </div>
     );
 };
