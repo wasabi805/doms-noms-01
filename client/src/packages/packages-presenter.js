@@ -20,7 +20,7 @@ const Presenter = ({page_01_header,
                        page_06,
 }) => {
     return (
-        <section className="packages">
+        <section id='packages' className="packages">
             <h1 className='title'>Options</h1>
 
             <div className="book">

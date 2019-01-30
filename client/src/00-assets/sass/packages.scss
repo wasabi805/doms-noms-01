@@ -194,7 +194,7 @@ input:checked {
   height: 100%;
   top: 0;
   border-radius: 0 3px 3px 0;
-
+  //background: url("https://i.ibb.co/ypX4b2G/brown-leather-bg-1962-359.jpg");
   //background-color: maroon;
 
 
@@ -208,7 +208,11 @@ input:checked {
 
     &::after {
       content: "";
-      background: url("https://i.ibb.co/ypX4b2G/brown-leather-bg-1962-359.jpg");
+      //background: url("https://i.ibb.co/ypX4b2G/brown-leather-bg-1962-359.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+
+
       display: block;
       width: 60px;
       position: absolute;
@@ -228,11 +232,13 @@ input:checked {
     background-image: none;
 
     &::before {
+      //PACKAGE MENU COVER
       content: "";
       width: calc(100% - 20px);
       height: calc(100% - 20px);
       border: 2px dashed rgba(0,0,0,.2);
       background: url("https://i.ibb.co/ypX4b2G/brown-leather-bg-1962-359.jpg");
+      background-size: cover;
       position: absolute;
       top: 9px;
       left: 9px;

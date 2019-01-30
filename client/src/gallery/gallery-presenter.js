@@ -10,8 +10,8 @@ const Presenter = ({title, images}) => {
 
   return (
     <React.Fragment>
-      <section id='#gallery' className='gallery'>
-        <div className="contain">
+      <section className='gallery'>
+        <div id='#gallery' className="contain">
           <h1>Gallery</h1>
 
           {/*Gallery Images*/}

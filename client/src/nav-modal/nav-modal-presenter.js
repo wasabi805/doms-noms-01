@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 
 
 import { HashLink as Link } from 'react-router-hash-link';
@@ -6,7 +6,6 @@ import { configureAnchors } from 'react-scrollable-anchor'
 
 // btnAnimate
 const Presenter = (props) => {
-    console.log(props, 'whats the propss!!');
     configureAnchors({offset: -40, scrollDuration: 150})
     return (
        <div className='navmodal-presenter'>
