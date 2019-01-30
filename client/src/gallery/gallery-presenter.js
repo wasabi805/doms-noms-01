@@ -10,7 +10,7 @@ const Presenter = ({title, images}) => {
 
   return (
     <React.Fragment>
-      <section className='gallery'>
+      <section id='#gallery' className='gallery'>
         <div className="contain">
           <h1>Gallery</h1>
 

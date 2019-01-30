@@ -1,3 +1,4 @@
+import * as Selectors from './selectors'
 import { default as Validations } from './validation';
 import { clipAndStrip }           from './utils';
 
@@ -14,6 +15,17 @@ export const setFieldHasError = (bool = false, field) => set({
     path: ['contact', 'form', field, 'hasError'],
     value: bool,
 });
+
+
+export const handleMobileNavClick =()=>{
+    console.log('i will return a selector');
+    if(1+1 ===3 ){
+        return Selectors.viewMobileNav();
+    }
+    return 'none'
+};
+
+
 
 export const setFormError = (string = '') => set({path: ['contact', 'error'], value: String(string)});
 export const setModalType = (string = '') => set({path: ['modal', 'type'], value: String(string)});

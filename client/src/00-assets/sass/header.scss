@@ -27,15 +27,20 @@
   }
 
   img {
-    text-align: center;
-
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
     height: 3em;
     width: 6rem;
+    text-align: center;
     margin-right: 5px;
     margin-top: 4px;
 
     @include tablet {
-      //width: 40rem;
+      position: absolute;
+      top: 7px;
+      left: 30px;
       width: 15rem;
       height: 7em;
       margin-left: initial;
@@ -52,13 +57,15 @@
     display: none;
     @include tablet {
       display: flex;
-      //flex-direction: column;
       flex-direction: row;
       position: absolute;
-      top: 3rem;
-      right: 9rem;
-      font-size: 3rem;
+      top: 14px;
+      right: 3rem;
+      width: 116px;
       height: 11rem;
+      font-size: 3rem;
+      padding: 0;
+      margin: auto;
       justify-content: space-between;
     }
 

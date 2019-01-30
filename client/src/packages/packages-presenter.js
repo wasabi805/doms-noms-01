@@ -19,8 +19,6 @@ const Presenter = ({page_01_header,
                        page_06_header,
                        page_06,
 }) => {
-    console.log(page_01, 'page_01');
-    console.log(page_02_header, 'page_02_header');
     return (
         <section className="packages">
             <h1 className='title'>Options</h1>

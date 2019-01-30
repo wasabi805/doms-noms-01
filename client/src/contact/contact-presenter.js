@@ -6,7 +6,7 @@ import TextAreaContainer from './inputs/textarea-container';
 
 const Presenter = ({error, phone}) => {
   return (
-    <section className="contact">
+    <section id='contact' className="contact">
       <div className='contact-overlay'>
 
       </div>
@@ -45,7 +45,10 @@ const Presenter = ({error, phone}) => {
               </div>
             </div>
 
-            <div className='button-container'><button type="submit" className="stamp is-approved">Submit</button></div>
+            <div className='button-container'>
+                {/*<button type="submit" className="stamp is-approved">Submit</button>*/}
+                <button type="submit" className="stamp is-approved">Submit</button>
+            </div>
         </form>
 
 

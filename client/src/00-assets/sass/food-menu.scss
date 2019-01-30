@@ -1,35 +1,29 @@
 .food-menu{
   background-color: #282b2e;
-  //padding: 1em;
+  padding: 2em;
 }
 
 .food-menu-container{
   display: flex;
   flex-flow: row wrap; //Magic part I
-  margin: 1rem;
   flex-direction:column;
-  border:1px #cf0909 solid;
-  padding:5px;
+  //border:1px #cf0909 solid;
 
-  @media only screen and(min-width: 768px) {
-    margin:30px;
-  }
+  outline: 1px #cf0909 solid;
+  outline-offset: 4px;
 
   //ch1  ------------------------
   .header{
     background-color: #ffffff;
-    padding: 2em 0;
 
     .title{
       color: black;
-      font-size: 6em;
       font-weight: bolder;
       margin-bottom: 12px;
     }
 
     p{
       color: black;
-      font-size: 1.3em;
       text-transform: uppercase;
     }
   }
@@ -42,40 +36,42 @@
     flex-direction: row;
     flex-flow: wrap;
 
-
-
-    .column-left{
+    .column-text-wrapper{
       flex-grow: 1; //Magic part III a
-      padding: 2.5em;
       text-align: center;
       background-color: #ffffff;
+      h1, h2, h3, h4 , h5, h6{
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
 
       .title{
-        font-family: Standaris;
+        font-family: Standaris, "sans-serif";
         display: inline-block;
+        font-size: 28px;
         font-weight: bolder;
-        font-size: 4em;
         color: red;
         text-transform: uppercase;
-        margin-bottom: 15px;
+
 
         @media only screen and(min-width: 1440px) {
           font-size: 6em;;
         }
-
       }
 
       .name{
-        font-size: 2em;
+        font-size: 1.6em;
+        margin: 0;
         color: black;
         font-weight: bolder;
+
         @media only screen and(min-width: 1440px) {
           font-size: 3em;
         }
       }
 
       .text{
-        font-size: 16px;
+        font-size: 10.5px;
         color: black;
         //margin-bottom: 20px;
       }
@@ -86,45 +82,7 @@
     }
 
 
-    .column-right{
-      flex-grow: 1; //Magic part III a
-      padding: 2.5em;
-      text-align: center;
-      background-color: #ffffff;
 
-      .title{
-        font-family: Standaris;
-        display: inline-block;
-        font-weight: bolder;
-        font-size: 4em;
-        color: red;
-        text-transform: uppercase;
-        margin-bottom: 15px;
-        @media only screen and(min-width: 1440px) {
-          font-size: 6em;;
-        }
-      }
-
-      .name{
-        font-size: 2em;
-        color: black;
-        font-weight: bolder;
-        @media only screen and(min-width: 1440px) {
-          font-size: 3em;
-        }
-      }
-
-      .text{
-        font-size: 16px;
-        color: black;
-        margin-bottom: 20px;
-      }
-
-      .price{
-        color: black;
-
-      }
-    }
   }
 
   //ch3
@@ -141,7 +99,7 @@
     }
 
     .logo{
-      width: 10em;
+      width: 14em;
       margin: 0 2em;
 
       @media only screen and(min-width: 768px) {
@@ -183,4 +141,37 @@
   .column-left { order: 2; }
   .column-right { order: 3; }
   .footer  { order: 4; }
+}
+
+
+//Typography
+@media only screen and(min-width: 768px) {
+  .food-menu-container {
+    .header{
+      padding: 2em 0;
+
+      .title{
+        font-size: 6em;
+      }
+      p{
+        font-size: 1.3em;
+      }
+
+    }
+
+    .food-menu-body{
+      .column-text-wrapper{
+        padding: 2.5em;
+
+        .title{
+          font-size: 4em;
+        }
+
+        .text{
+          font-size: 16px;
+          line-height: 1.35em;
+        }
+      }
+    }
+  }
 }

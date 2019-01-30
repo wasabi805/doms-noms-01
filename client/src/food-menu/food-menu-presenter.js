@@ -17,7 +17,7 @@ const Presenter = ({food_menu_content, food_menu_footer, logo}) => {
   };
 
   return (
-    <section className="food-menu">
+    <section id='food-menu' className="food-menu">
       <div className="food-menu-container">
 
         <div className='header'>
@@ -27,12 +27,12 @@ const Presenter = ({food_menu_content, food_menu_footer, logo}) => {
         </div>
 
         <div className='food-menu-body'>
-          <div className="column column-left">
+          <div className="column column-text-wrapper">
             {/*Spilt the array before sending to the left side*/}
             <MenuColumn food_menu_content={menu_left_side(food_menu_content)}/>
           </div>
 
-          <div className="column column-right">
+          <div className="column column-text-wrapper">
             {/*Spilt the array before sending to the left side*/}
             <MenuColumn food_menu_content={menu_right_side(food_menu_content)}/>
           </div>

@@ -257,6 +257,22 @@ export const INITIAL_STATE = Map({
 
                     ]
                 },
+            ]
+        }),
+
+        page_04: Map({
+
+            course:[
+                { name: "Entrees",
+                    course_list: [
+                        {item: "Seared Salmon w/ Beurre Blanc "},
+                        {item: "Herb Roasted Chicken w/ Marsala Sauce"},
+                        {item: "Seared Sirloin Steak w/ Mushroom peppercorn Sauce "},
+                        {item: "Roasted Ribeye with Au jus"},
+                        {item: "Marinated Pork Loin w/balsamic, cranberry sauce" },
+                        {item: "Eggplant Parmesan "},
+                    ]
+                },
 
                 {
                     name: "Salads",
@@ -281,22 +297,6 @@ export const INITIAL_STATE = Map({
                         {item : "Garlic or Classic Mashed Potatoes"},
                         {item : "Wild Rice Pilaf"},
                     ]
-                }
-            ]
-        }),
-
-        page_04: Map({
-
-            course:[
-                { name: "Entrees",
-                    course_list: [
-                        {item: "Seared Salmon w/ Beurre Blanc "},
-                        {item: "Herb Roasted Chicken w/ Marsala Sauce"},
-                        {item: "Seared Sirloin Steak w/ Mushroom peppercorn Sauce "},
-                        {item: "Roasted Ribeye with Au jus"},
-                        {item: "Marinated Pork Loin w/balsamic, cranberry sauce" },
-                        {item: "Eggplant Parmesan "},
-                    ]
                 },
 
                 {
@@ -305,7 +305,6 @@ export const INITIAL_STATE = Map({
                         {item : "*Choose Three"},
                         {item : '.'},
                         {item : 'Hand Dipped Chocolate Strawberries'},
-                        {item : 'Assorted Cookies'},
                         {item : 'Brownies'},
                         {item : 'Apple Pie'},
                         {item : 'Chocolate Mousee'},
@@ -318,7 +317,6 @@ export const INITIAL_STATE = Map({
                     name: "Assorted Beverages",
                     course_list:[
                         {item : "Iced Tea"},
-                        {item : "Tropic Thunder Booty Sweat"},
                         {item : "Coke"},
                         {item : "Sprite"},
                         {item : "Diet Coke"},
@@ -328,7 +326,7 @@ export const INITIAL_STATE = Map({
                 {
                     name: "Coffee Service",
                     course_list:[
-                        {item : "*includes disposable coffe cups, stirs, creamer & sugar"},
+                        {item : "*includes disposable cups, stirs, creamer & sugar"},
                     ]
                 }
             ]

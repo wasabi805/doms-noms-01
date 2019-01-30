@@ -7,7 +7,7 @@ import OfferPresenter from './offer-presenter';
 const Presenter = ({services}) => {
 
   return (
-    <section className="services">
+    <section id='services' className="services">
       <div className="services-container">
         <h2 className="title">Our Services</h2>
         <div className="offer-container">

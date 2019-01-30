@@ -1,3 +1,12 @@
+export const viewMobileNav =()=>{
+    return 'block'
+};
+
+export const hideMobileNav =()=>{
+    return 'none'
+};
+
+
 export const getLogo        = ({Logic}) => Logic.getIn(['info', 'logo']);
 export const getBrands = ({Logic}) => Logic.getIn(['info' , 'social']).toJS();
 
