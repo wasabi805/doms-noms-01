@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8b4ec90-0650-4670-92a1-8aac6bef168e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/StickySelectionHighlights.xml" afterPath="$PROJECT_DIR$/.idea/StickySelectionHighlights.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" afterPath="$PROJECT_DIR$/client/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" afterPath="$PROJECT_DIR$/client/package.json" />
-      <change beforePath="$PROJECT_DIR$/client/public/css/bootstrap.css" afterPath="$PROJECT_DIR$/client/public/css/bootstrap.css" />
-      <change beforePath="$PROJECT_DIR$/client/src/00-assets/sass/food-menu.scss" afterPath="$PROJECT_DIR$/client/src/00-assets/sass/food-menu.scss" />
-      <change beforePath="$PROJECT_DIR$/client/src/00-assets/sass/header.scss" afterPath="$PROJECT_DIR$/client/src/00-assets/sass/header.scss" />
-      <change beforePath="$PROJECT_DIR$/client/src/00-assets/sass/hero.scss" afterPath="$PROJECT_DIR$/client/src/00-assets/sass/hero.scss" />
-      <change beforePath="$PROJECT_DIR$/client/src/00-assets/sass/index.css" afterPath="$PROJECT_DIR$/client/src/00-assets/sass/index.css" />
       <change beforePath="$PROJECT_DIR$/client/src/00-assets/sass/main.scss" afterPath="$PROJECT_DIR$/client/src/00-assets/sass/main.scss" />
-      <change beforePath="$PROJECT_DIR$/client/src/00-assets/sass/packages.scss" afterPath="$PROJECT_DIR$/client/src/00-assets/sass/packages.scss" />
-      <change beforePath="$PROJECT_DIR$/client/src/contact/contact-presenter.js" afterPath="$PROJECT_DIR$/client/src/contact/contact-presenter.js" />
-      <change beforePath="$PROJECT_DIR$/client/src/food-menu/food-menu-presenter.js" afterPath="$PROJECT_DIR$/client/src/food-menu/food-menu-presenter.js" />
-      <change beforePath="$PROJECT_DIR$/client/src/gallery/gallery-presenter.js" afterPath="$PROJECT_DIR$/client/src/gallery/gallery-presenter.js" />
-      <change beforePath="$PROJECT_DIR$/client/src/header/header-presenter.js" afterPath="$PROJECT_DIR$/client/src/header/header-presenter.js" />
-      <change beforePath="$PROJECT_DIR$/client/src/hero/hero-presenter.js" afterPath="$PROJECT_DIR$/client/src/hero/hero-presenter.js" />
-      <change beforePath="$PROJECT_DIR$/client/src/logic/actions.js" afterPath="$PROJECT_DIR$/client/src/logic/actions.js" />
-      <change beforePath="$PROJECT_DIR$/client/src/logic/reducer/constants.js" afterPath="$PROJECT_DIR$/client/src/logic/reducer/constants.js" />
-      <change beforePath="$PROJECT_DIR$/client/src/logic/selectors.js" afterPath="$PROJECT_DIR$/client/src/logic/selectors.js" />
-      <change beforePath="$PROJECT_DIR$/client/src/main.js" afterPath="$PROJECT_DIR$/client/src/main.js" />
-      <change beforePath="$PROJECT_DIR$/client/src/packages/packages-presenter.js" afterPath="$PROJECT_DIR$/client/src/packages/packages-presenter.js" />
-      <change beforePath="$PROJECT_DIR$/client/src/page/page-container.js" afterPath="$PROJECT_DIR$/client/src/page/page-container.js" />
-      <change beforePath="$PROJECT_DIR$/client/src/page/page-presenter.js" afterPath="$PROJECT_DIR$/client/src/page/page-presenter.js" />
-      <change beforePath="$PROJECT_DIR$/client/src/services/services-presenter.js" afterPath="$PROJECT_DIR$/client/src/services/services-presenter.js" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -137,8 +114,8 @@
           <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/client/src/00-assets/sass/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="297">
-                  <caret line="189" column="52" lean-forward="true" selection-start-line="189" selection-start-column="52" selection-end-line="189" selection-end-column="52" />
+                <state relative-caret-position="235">
+                  <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -167,7 +144,7 @@
           <file leaf-file-name="header.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/client/src/00-assets/sass/header.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="96">
+                <state relative-caret-position="-1121">
                   <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
                   <folding />
                 </state>
@@ -207,9 +184,9 @@
       <find>ftw</find>
       <find>line-he</find>
       <find>logo-ar</find>
-      <find>.page</find>
       <find>.social</find>
       <find>scroll</find>
+      <find>.page</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -266,9 +243,9 @@
         <option value="$PROJECT_DIR$/client/src/header/nav-links/nav-link-container.js" />
         <option value="$PROJECT_DIR$/client/src/header/header-presenter.js" />
         <option value="$PROJECT_DIR$/client/src/header/nav-links/nav-link-presenter.js" />
-        <option value="$PROJECT_DIR$/client/src/00-assets/sass/main.scss" />
         <option value="$PROJECT_DIR$/client/src/00-assets/sass/nav-links.scss" />
         <option value="$PROJECT_DIR$/client/src/00-assets/sass/header.scss" />
+        <option value="$PROJECT_DIR$/client/src/00-assets/sass/main.scss" />
       </list>
     </option>
   </component>
@@ -451,12 +428,12 @@
       <workItem from="1548268857218" duration="365000" />
       <workItem from="1548269657625" duration="46378000" />
       <workItem from="1548323984911" duration="115736000" />
-      <workItem from="1548793154756" duration="24835000" />
+      <workItem from="1548793154756" duration="24975000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187654000" />
+    <option name="totallyTimeSpent" value="187794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1209" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -466,10 +443,10 @@
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15853658" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15853658" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Code comment" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11821086" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -896,6 +873,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/public/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2170">
+          <caret line="6" column="5884" lean-forward="false" selection-start-line="6" selection-start-column="5884" selection-end-line="6" selection-end-column="5884" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/header/nav-links/nav-link-presenter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -912,17 +897,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/public/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2170">
-          <caret line="6" column="5884" lean-forward="false" selection-start-line="6" selection-start-column="5884" selection-end-line="6" selection-end-column="5884" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/00-assets/sass/header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
+        <state relative-caret-position="-1121">
           <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
           <folding />
         </state>
@@ -930,8 +907,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/00-assets/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="189" column="52" lean-forward="true" selection-start-line="189" selection-start-column="52" selection-end-line="189" selection-end-column="52" />
+        <state relative-caret-position="235">
+          <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
           <folding />
         </state>
       </provider>
