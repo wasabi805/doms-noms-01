@@ -98,6 +98,11 @@
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/client/src/00-assets/sass/nav-modal.scss">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/client/src/00-assets/sass/packages.scss">
           <value>
             <PaintGroupHighlightMap />
