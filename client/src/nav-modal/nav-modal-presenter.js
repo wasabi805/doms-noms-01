@@ -38,7 +38,6 @@ const Presenter = (props) => {
                        </button>
                    </a>
 
-
                    <a href='#packages' onClick={()=>props.handleNavModalClick()}>
                        <button>
                            <i className="fas fa-gift"/>

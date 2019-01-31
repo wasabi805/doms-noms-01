@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8b4ec90-0650-4670-92a1-8aac6bef168e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/StickySelectionHighlights.xml" afterPath="$PROJECT_DIR$/.idea/StickySelectionHighlights.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/client/public/css/bootstrap.css" afterPath="$PROJECT_DIR$/client/public/css/bootstrap.css" />
-      <change beforePath="$PROJECT_DIR$/client/src/00-assets/sass/header.scss" afterPath="$PROJECT_DIR$/client/src/00-assets/sass/header.scss" />
-      <change beforePath="$PROJECT_DIR$/client/src/00-assets/sass/main.scss" afterPath="$PROJECT_DIR$/client/src/00-assets/sass/main.scss" />
       <change beforePath="$PROJECT_DIR$/client/src/nav-modal/nav-modal-presenter.js" afterPath="$PROJECT_DIR$/client/src/nav-modal/nav-modal-presenter.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -38,8 +34,8 @@
           <file leaf-file-name="nav-modal-presenter.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/client/src/nav-modal/nav-modal-presenter.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1184">
-                  <caret line="59" column="37" lean-forward="false" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+                <state relative-caret-position="366">
+                  <caret line="39" column="19" lean-forward="false" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -276,8 +272,8 @@
         <option value="$PROJECT_DIR$/client/src/00-assets/sass/nav-modal.scss" />
         <option value="$PROJECT_DIR$/client/public/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/client/src/page/page-presenter.js" />
-        <option value="$PROJECT_DIR$/client/src/nav-modal/nav-modal-presenter.js" />
         <option value="$PROJECT_DIR$/client/src/00-assets/sass/main.scss" />
+        <option value="$PROJECT_DIR$/client/src/nav-modal/nav-modal-presenter.js" />
       </list>
     </option>
   </component>
@@ -473,12 +469,12 @@
       <workItem from="1548268857218" duration="365000" />
       <workItem from="1548269657625" duration="46378000" />
       <workItem from="1548323984911" duration="115736000" />
-      <workItem from="1548793154756" duration="34139000" />
+      <workItem from="1548793154756" duration="34263000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196958000" />
+    <option name="totallyTimeSpent" value="197082000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1209" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -944,21 +940,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/nav-modal/nav-modal-presenter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1184">
-          <caret line="59" column="37" lean-forward="false" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/00-assets/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
           <caret line="99" column="23" lean-forward="true" selection-start-line="99" selection-start-column="23" selection-end-line="99" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/nav-modal/nav-modal-presenter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="39" column="19" lean-forward="false" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
