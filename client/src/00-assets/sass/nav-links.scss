@@ -30,6 +30,7 @@ div.container
   display: none;
   z-index: 10;
 
+
 }
 
 div.container a
@@ -44,6 +45,10 @@ div.container a
   position: relative;
   z-index: -1;
   cursor: pointer;
+
+  &:hover{
+    text-decoration: none;
+  }
 
 }
 
