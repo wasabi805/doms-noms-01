@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import OfferPresenter from './offer-presenter';
 
-{/*<i class="fas fa-truck"></i>*/}
+
 const Presenter = ({services}) => {
 
   return (

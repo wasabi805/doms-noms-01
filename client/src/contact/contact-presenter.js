@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import FieldContainer    from './inputs/text-field-container';
-import TextAreaContainer from './inputs/textarea-container';
+// import FieldContainer    from './inputs/text-field-container';
+// import TextAreaContainer from './inputs/textarea-container';
 
 const Presenter = ({error, phone}) => {
   return (

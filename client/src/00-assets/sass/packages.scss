@@ -167,6 +167,7 @@ input[type=radio] {
   display: none;
 }
 
+// ~ all elems that precede .page
 input:checked {
   & ~ .page {
     transform: rotateY(0);
@@ -176,6 +177,7 @@ input:checked {
     transform: rotateY(180deg);
   }
 
+  //see : https://css-tricks.com/how-nth-child-works/
   & ~ .page:nth-of-type(2n-1) {
     z-index: 3;
   }
@@ -193,9 +195,7 @@ input:checked {
   width: 50%;
   height: 100%;
   top: 0;
-  border-radius: 0 3px 3px 0;
-  //background: url("https://i.ibb.co/ypX4b2G/brown-leather-bg-1962-359.jpg");
-  //background-color: maroon;
+  border-radius: 0 3px 3px 0; //round page edges
 
 
   h1 {
@@ -208,11 +208,6 @@ input:checked {
 
     &::after {
       content: "";
-      //background: url("https://i.ibb.co/ypX4b2G/brown-leather-bg-1962-359.jpg");
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
-
-
       display: block;
       width: 60px;
       position: absolute;
@@ -228,8 +223,9 @@ input:checked {
     border-radius: 3px 0 0 3px;
   }
 
+  //book cover and book end
   &:first-of-type, &:last-of-type {
-    background-image: none;
+    //background-image: none;
 
     &::before {
       //PACKAGE MENU COVER
