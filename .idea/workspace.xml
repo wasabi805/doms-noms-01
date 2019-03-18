@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8b4ec90-0650-4670-92a1-8aac6bef168e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/00-assets/sass/about-us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/00-assets/sass/about-us.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/00-assets/sass/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/00-assets/sass/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/00-assets/sass/hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/00-assets/sass/hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/00-assets/sass/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/00-assets/sass/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/00-assets/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/00-assets/sass/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/00-assets/sass/nav-links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/00-assets/sass/nav-links.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/00-assets/sass/packages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/00-assets/sass/packages.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/00-assets/sass/services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/00-assets/sass/services.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/00-assets/sass/story.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/00-assets/sass/story.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/about-us/about-us-container.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/about-us/about-us-container.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/about-us/about-us-presenter.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/about-us/about-us-presenter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/contact/contact-contianer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contact/contact-contianer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/contact/contact-presenter.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contact/contact-presenter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/food-menu/food-menu-container.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/food-menu/food-menu-container.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/food-menu/menu-column.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/food-menu/menu-column.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/header/header-presenter.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/header/header-presenter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/header/nav-links/nav-link-presenter.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/header/nav-links/nav-link-presenter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/header/social/social-presenter.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/header/social/social-presenter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/hero/hero-container.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/hero/hero-container.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/hero/hero-presenter.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/hero/hero-presenter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/packages/packages-presenter.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/packages/packages-presenter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/packages/pages/package-header.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/packages/pages/package-header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/page/page-container.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/page/page-container.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/page/page-presenter.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/page/page-presenter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/story/story-presenter.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/story/story-presenter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-    </list>
+    <list default="true" id="c8b4ec90-0650-4670-92a1-8aac6bef168e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -50,7 +18,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/server.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="217">
+                <state relative-caret-position="3">
                   <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
                 </state>
               </provider>
@@ -152,7 +120,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/client/src/about-us/about-us-container.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
+                <state relative-caret-position="61">
                   <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
                   <folding>
                     <element signature="e#0#38#0" expanded="true" />
@@ -274,9 +242,11 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="130" />
+    <option name="y" value="25" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -372,16 +342,15 @@
       <workItem from="1549487149863" duration="13000" />
       <workItem from="1549654298268" duration="1808000" />
       <workItem from="1552788338445" duration="7163000" />
-      <workItem from="1552798992462" duration="34847000" />
+      <workItem from="1552798992462" duration="38051000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="293826000" />
+    <option name="totallyTimeSpent" value="297030000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <frame x="130" y="25" width="1280" height="773" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25400642" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -397,7 +366,7 @@
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.36363637" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4793893" />
       <window_info anchor="bottom" id="Code comment" order="11" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.3292683" />
@@ -729,7 +698,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/about-us/about-us-container.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="61">
           <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
@@ -759,7 +728,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
+        <state relative-caret-position="3">
           <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
