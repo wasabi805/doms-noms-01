@@ -8,7 +8,8 @@ const exphbs = require('express-handlebars');
 const path = require('path');
 
 
-//==========    Basic SendGrid Emailer     ==========
+
+//==========    Basic SendGrid Emailer     =========
 //see https://www.npmjs.com/package/@sendgrid/mail
 const sgMail = require('@sendgrid/mail');
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
@@ -23,7 +24,7 @@ const msg = {
 
 sgMail.send(msg);
 
-//==========    ==========  =========   ==========
+//==========    ==========  =========   ==========+
 
 //INIT
 const app = express();
