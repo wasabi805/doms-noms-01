@@ -1,11 +1,18 @@
 .about-us{
   background-color: #3e4041;
+  padding: 0 3px;
 
   .text{
-    margin: 0 5em;
+    margin: 0 2em;
     font-size: 1.1em;
     line-height: 20px;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+
+    @media only screen and(min-width: 776px) {
+      margin: 0 5em;
+      padding: 0;
+
+    }
 
     @media only screen and(min-width: 1024px) {
       font-size: 1.4em;
@@ -40,24 +47,47 @@
   .text-container{
     flex-grow: 1;
     color: white;
-    background-color: #90a7b247;
+    //background-color: #90a7b247;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    text-align: justify;
+    padding: 0;
+
+    @media only screen and(min-width: 767px){
+      padding: 4rem;
+    }
+
+
+
 
     .title{
       font-family: Standaris;
-      font-size: 4em;
-      color: white;
+      margin: 0;
+      margin-left: 50px;
+      font-size: 3em;
+      color: #b69975;
       align-self: center;
       text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+      margin-top: 26px;
+
+
       h2{
         font-size: 12px;
+
       }
 
+      .text{
+        text-align: justify;
+      }
+
+
+
       @media only screen and(min-width: 768px) {
-        font-size: 5em;
+        font-size: 4em;
+        margin-top: 0;
       }
 
       @media only screen and(min-width: 1440px) {
-       padding-top: 4em;
+       padding-top: 5em;
       }
 
     }

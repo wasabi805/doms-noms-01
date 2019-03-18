@@ -5,6 +5,7 @@ import PackageHeader from './pages/package-header';
 import PackageDescrip from './pages/package-descrip';
 import PackageCourse from './pages/pacakge-course'
 
+
 const Presenter = ({page_01_header,
                        page_01,
                        page_02_header,
@@ -21,15 +22,26 @@ const Presenter = ({page_01_header,
 }) => {
     return (
         <section id='packages' className="packages">
-            <h1 className='title'>Options</h1>
+            <h1 className='title'>Catering</h1>
 
             <div className="book">
+
                 <input type="radio" name="page" id="page-1" defaultChecked />
-                <label className="page cover" htmlFor="page-3"><h1> Selections</h1></label>
+                <label className="page cover" htmlFor="page-3">
+                    <div  className='book-title'>
+                        {/*<p>====== &#x2666; = = = &#x2660; = = = &#x2666; ======</p>*/}
+                        <h1> Selections</h1>
+                        {/*<p>====== &#x2666; = = = &#x2663; = = = &#x2666; ======</p>*/}
+
+                        <h2 id='clickMe' className='heartbeat'>click to browse</h2>
+                    </div>
+
+
+                </label>
 
                 {/*Page 1*/}
                 <label className="page cover" htmlFor="page-1">
-                    <img src={logo}/>
+                    <img src={logo} alt=''/>
                     <PackageHeader header={page_01_header}/>
 
                     <PackageDescrip list={page_01}/>
@@ -39,7 +51,7 @@ const Presenter = ({page_01_header,
                 {/*Page 2*/}
                 <input type="radio" name="page" id="page-3" />
                 <label className="page" htmlFor="page-5">
-                    <img src={logo}/>
+                    <img src={logo} alt=''/>
 
                     <PackageHeader header={page_02_header}/>
                     <PackageCourse list={page_02}/>
@@ -47,7 +59,7 @@ const Presenter = ({page_01_header,
                 {/*Page 3*/}
                 </label>
                 <label className="page" htmlFor="page-3">
-                    <img src={logo}/>
+                    <img src={logo} alt=''/>
 
                     <PackageHeader header={page_03_header}/>
                     <small>Select an Appetizer Option:</small>
@@ -61,7 +73,7 @@ const Presenter = ({page_01_header,
                 {/*Page 4*/}
                 <input type="radio" name="page" id="page-5" />
                 <label className="page" htmlFor="page-7">
-                    <img src={logo}/>
+                    <img src={logo} alt=''/>
 
                     <PackageHeader header={page_04_header}/>
                     <PackageCourse list={page_04}/>
@@ -69,7 +81,7 @@ const Presenter = ({page_01_header,
 
                 {/*Page 5*/}
                 <label className="page" htmlFor="page-5">
-                    <img src={logo}/>
+                    <img src={logo} alt=''/>
                     <PackageHeader header={page_05_header}/>
                     <PackageCourse list={page_05}/>
                 </label>
@@ -77,12 +89,12 @@ const Presenter = ({page_01_header,
                 {/*Page 6*/}
                 <input type="radio" name="page" id="page-7" />
                 <label className="page" htmlFor="page-9">
-                    <img src={logo}/>
+                    <img src={logo} alt=''/>
                     <PackageHeader header={page_06_header}/>
                     <PackageCourse list={page_06}/>
                 </label>
                 <label className="page" htmlFor="page-7">
-                    <img src={logo}/>
+                    <img src={logo} alt=''/>
                 </label>
                 <input type="radio" name="page" id="page-9" />
                 <label className="page cover" htmlFor="page-11"/>

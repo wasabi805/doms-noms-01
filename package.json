@@ -25,6 +25,8 @@
   },
   "homepage": "https://github.com/wasabi805/doms-noms-01#readme",
   "dependencies": {
+    "@sendgrid/client": "^6.3.0",
+    "@sendgrid/mail": "^6.3.1",
     "body-parser": "^1.18.3",
     "concurrently": "^4.1.0",
     "dotenv": "^6.2.0",

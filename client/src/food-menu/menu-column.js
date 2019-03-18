@@ -8,12 +8,14 @@ const MenuColumn = (props) => {
     return menu_item.map( (x , index ) => {
 
       return <React.Fragment>
-        <h1 key={index} className='title'>{x.title}</h1>
-        {x.courses.map(z => {
+        <h1 key={`${x.title}${index}`} className='title'>{x.title}</h1>
 
+
+
+        {x.courses.map(z => {
           return <React.Fragment>
-            <p key={z.name} className='name'>{z.name}</p>;
-            <p key={z.descrip} className='text'>{z.descrip}<span className='price'> | ${z.price} |</span></p>
+            <p key={`${z.name}${index}`} className='name'>{z.name}</p>;
+            <p key={`${z.descrip}${index}`} className='text'>{z.descrip}<span className='price'> | ${z.price} |</span></p>
           </React.Fragment>;
         })}
 

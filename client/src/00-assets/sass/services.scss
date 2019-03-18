@@ -19,6 +19,7 @@
     padding: 1rem 1rem 1rem;
 
     background-color: rgba(0, 0, 0, .8);
+    border: 1px white solid;
 
     @media only screen and(min-width: 768px) {
       margin: 3rem;
@@ -41,7 +42,7 @@
       margin-top: 4rem;
 
       @include tablet {
-        margin-top: 8rem;
+        margin: 8rem 0;
         flex-direction: row;
       }
 
@@ -50,7 +51,22 @@
         width: 100%;
         font-size: 1.8rem;
         line-height: 3rem;
-        margin: 0 3% 4rem;
+
+        padding: 0;
+        margin-bottom: 1em;
+        //margin-bottom: 4em;
+
+        @media only screen and(min-width: 321px) {
+          margin-bottom: 0;
+        }
+
+        @media only screen and(min-width: 767px) {
+          padding: 0;
+          margin: 0 16px;
+          margin-bottom: 0;
+
+        }
+
 
         &-number {
           color: #e0aa30;
@@ -70,13 +86,24 @@
         }
 
         &-title {
-          margin-bottom: 4rem;
+
           hr {
             width: 40%;
           }
         }
 
+        &-name{
+          font-size: 3rem;
+        }
+
         &-description {
+          text-align: justify;
+          word-spacing: 1px;
+          line-height: 21px;
+          padding: 16px;
+          margin: 0;
+
+
           p{
             font-size: 3em;
           }

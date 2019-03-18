@@ -61,7 +61,6 @@
   .puff-in-center {
     -webkit-animation: puff-in-center 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) 2s both;
     animation: puff-in-center 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) 2s both;
-
   }
 
   @-webkit-keyframes puff-in-center {
@@ -134,11 +133,21 @@
 
   .overlay-text-container{
     transform: translateY(50%);
+    font-size: 6px;;
 
     h1{
       font-family: 'Standaris' , sans-serif , 'BRUX';
       color: #dad3d3;
-      font-size: 4em;
+
+
+      font-size: 8em;
+
+      @media only screen and(min-width: 767px){
+        font-size: 4em;
+      }
+
+
+
     }
     p {
       font-size: 3em;

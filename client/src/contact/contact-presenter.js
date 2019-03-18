@@ -4,7 +4,9 @@ import PropTypes from 'prop-types';
 // import FieldContainer    from './inputs/text-field-container';
 // import TextAreaContainer from './inputs/textarea-container';
 
-const Presenter = ({error, phone}) => {
+
+const Presenter = ({error, phone, brand}) => {
+
   return (
     <section id='contact' className="contact">
       <div className='contact-overlay'>
@@ -29,8 +31,8 @@ const Presenter = ({error, phone}) => {
       {/*</form>*/}
 
       <h1 className='wood-bg-title'>Get in Touch</h1>
+        {/*<SocialContainer/>*/}
         <p className='story-text'>Feel free to contact us about having us cater your next event!</p>
-
         <form >
             <div className="form-group">
                <div className='column-left'>

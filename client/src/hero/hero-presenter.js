@@ -10,7 +10,7 @@ const Presenter = () => {
             <div className='hero-content'>
                 <div className='iframe-container'>
                     <div id='home' className='hero-overlay'/>
-                    <iframe  src="https://streamable.com/s/lp7w1/opekoi?autoplay=1&muted=1" frameBorder="0" />
+                    <iframe title='bbq-video-background' src="https://streamable.com/s/lp7w1/opekoi?autoplay=1&muted=1" frameBorder="0" />
                 </div>
 
                 <div className='hero-overlay-content'>

@@ -1,36 +1,70 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
-import { HashLink as Link } from 'react-router-hash-link';
+
 import { configureAnchors } from 'react-scrollable-anchor'
 
 const Presenter = () => {
     configureAnchors({offset: -40, scrollDuration: 150})
     return (
-        <div className="container pullUp">
-            <a href='#home'>
-                <a>Home</a>
-            </a>
 
-            <a href='#services'>
-                <a>Services</a>
-            </a>
+        <React.Fragment>
 
-            <a href='#food-menu'>
-                <a>Menu</a>
-            </a>
+            <div className="nav-links-container">
+                <ul>
+                    <li >
+                        <a href='#home'>Home</a>
+                    </li>
 
-            <a href='#packages'>
-                <a>Packages</a>
-            </a>
+                    <li >
+                        <a href='#services'>Services</a>
+                    </li>
 
-            <a href='#gallery'>
-                <a>Gallery</a>
-            </a>
+                    <li >
+                        <a href='#food-menu'>Menu</a>
+                    </li>
 
-            <a href='#contact'>
-                <a>Contact</a>
-            </a>
-        </div>
+                    <li>
+                        <a href='#packages'>Catering</a>
+                    </li>
+
+                    <li >
+                        <a href='#gallery'>Gallery</a>
+                    </li>
+
+                    <li >
+                        <a href='#contact'>Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            {/*<div className="container pullUp">*/}
+                {/*<a href='#home'>*/}
+                    {/*<a>Home</a>*/}
+                {/*</a>*/}
+
+                {/*<a href='#services'>*/}
+                    {/*<a>Services</a>*/}
+                {/*</a>*/}
+
+                {/*<a href='#food-menu'>*/}
+                    {/*<a>Menu</a>*/}
+                {/*</a>*/}
+
+                {/*<a href='#packages'>*/}
+                    {/*<a>Packages</a>*/}
+                {/*</a>*/}
+
+                {/*<a href='#gallery'>*/}
+                    {/*<a>Gallery</a>*/}
+                {/*</a>*/}
+
+                {/*<a href='#contact'>*/}
+                    {/*<a>Contact</a>*/}
+                {/*</a>*/}
+            {/*</div>*/}
+
+        </React.Fragment>
     );
 };
 

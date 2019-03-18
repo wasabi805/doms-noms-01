@@ -3,7 +3,6 @@ import React from 'react';
 
 
 const Presenter = ({title, text}) => {
-    console.log('story pres');
     return (
         <section className="story">
             <div className="story-overlay">

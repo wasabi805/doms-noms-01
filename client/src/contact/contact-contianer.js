@@ -7,6 +7,7 @@ import * as Selectors from '../logic/selectors';
 const mapStateToProps = state => ({
   error: Selectors.getFormError(state),
   phone: Selectors.getPhoneNumber(state),
+  brand: Selectors.getBrands(state),
 });
 
 

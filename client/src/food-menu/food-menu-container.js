@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import * as Selectors from '../logic/selectors';
+
 import { getFoodMenuTitle, getFoodMenuContent, getFoodMenuFooter, getLogo } from '../logic/selectors';
 
 

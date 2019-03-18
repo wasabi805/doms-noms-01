@@ -1,12 +1,29 @@
 require('dotenv').config();
 
 const express = require('express');
+const router = express.Router();
 const bodyParser = require('body-parser');
 const exphbs = require('express-handlebars');
-const nodemailer = require('nodemailer');
+
 const path = require('path');
 
 
+//==========    Basic SendGrid Emailer     ==========
+//see https://www.npmjs.com/package/@sendgrid/mail
+const sgMail = require('@sendgrid/mail');
+sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+//
+const msg = {
+    to: process.env.SENDGRID_EMAIL,
+    from: 'noreply@proletdev.com',
+    subject: 'Sending with SendGrid is Fun',
+    text: 'and easy to do anywhere, even with Node.js',
+    html: '<strong>and easy to do anywhere, even with Node.js</strong>',
+};
+
+sgMail.send(msg);
+
+//==========    ==========  =========   ==========
 
 //INIT
 const app = express();
@@ -15,6 +32,7 @@ const app = express();
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
+app.use(express.static('test'));
 
 
 //Serves static assets if in prod
@@ -25,68 +43,11 @@ if(process.env.NODE_ENV === 'production'){
     })
 }
 
-//view engine set up
-app.engine('handlebars', exphbs());
-app.set('view engine', 'handlebars');
-
-//Static Folder
-app.use('/public', express.static(path.join(__dirname, 'public')));
-
-
-app.get('/' , (req, res)=>{
-    res.render('contact')
-});
-
-app.post('/send' , (req, res)=>{
-    console.log(req.body);
-    const output = `
-    <p>Hello, you have a new prospect</p>
-    <h3>Contact Details</h3>
-        <ul>
-            <li>name: ${req.body.name}</li>
-            <li>email: ${req.body.email}</li>
-            <li>phone: ${req.body.phone}</li>
-        </ul>
-`;
-
-    // create reusable transporter object using the default SMTP transport
-    let transporter = nodemailer.createTransport({
-        // host: "smtp.ethereal.email",
-        // port: 587,
-
-        service: '"Godaddy"',
-
-        secure: false, // true for 465, false for other ports
-        auth: {
-            user: 'tim@proletdev.com', // generated ethereal user
-            pass: process.env.password // generated ethereal password
-        }
-    });
-
-    // setup email data with unicode symbols
-    let mailOptions = {
-        from: '"Fred Foo 👻" <tim@proletdev.com>', // sender address
-        to: "timothy.j.ocampo@gmail.com", // list of receivers
-        subject: "Hello ✔", // Subject line
-        text: "Hello world?", // plain text body
-        html: "<b>Hello world?</b>" // html body
-    };
-
-    transporter.sendMail(mailOptions, (error, info)=>{
-        if(error){
-            return console.log(error);
-        }
-
-       console.log(info);
-
-    })
-
-
-});
-
 
 const port = process.env.PORT || 5000;
 
 app.listen(port, ()=>{
     console.log( `Server running on port ${port}` );
 });
+
+module.exports = router;

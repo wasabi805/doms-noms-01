@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../00-assets/img/logo.min.png'
 
-import SocialContainer from './social/social-container';
+// import SocialContainer from './social/social-container';
 // import NavContainer from '../nav/nav-container';
 import NavLinksContainer from './nav-links/nav-link-container'
 
@@ -42,7 +42,7 @@ const Presenter = (props) => {
                 {/*DOMS NOMS LOGO WuTang*/}
                 <img src={logo} alt={''}/>
 
-                <SocialContainer />
+                {/*<SocialContainer />*/}
             </div>
             {/*<NavContainer />*/}
         </header>

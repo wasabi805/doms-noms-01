@@ -59,7 +59,7 @@ class Presenter extends Component{
 
                 <div className="page">
                     <HeaderContainer handleNavModalClick={this.handleNavModalClick} modalDisplay={this.state.modalDisplay}/>
-                    <div style={{filter:`${this.state.blur_page}`}}>
+                    <div id='for-mobile-blur' style={{overflowX: 'hidden', width: '100%',filter:`${this.state.blur_page}`}}>
                         <HeroContainer/>
                         <StoryContainer/>
                         <ServicesContainer/>
