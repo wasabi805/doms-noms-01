@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8b4ec90-0650-4670-92a1-8aac6bef168e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-    </list>
+    <list default="true" id="c8b4ec90-0650-4670-92a1-8aac6bef168e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -20,7 +18,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/server.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="224">
+                <state relative-caret-position="3">
                   <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
                 </state>
               </provider>
@@ -156,8 +154,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="48" />
-    <option name="y" value="23" />
+    <option name="x" value="45" />
+    <option name="y" value="69" />
     <option name="width" value="1280" />
     <option name="height" value="773" />
   </component>
@@ -254,11 +252,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="297085000" />
+    <option name="totallyTimeSpent" value="297774000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="48" y="23" width="1280" height="773" extended-state="0" />
-    <editor active="true" />
+    <frame x="45" y="69" width="1280" height="773" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25400642" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -274,7 +271,7 @@
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4793893" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.8824428" />
       <window_info anchor="bottom" id="Code comment" order="11" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.3292683" />
@@ -633,7 +630,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
+        <state relative-caret-position="3">
           <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
