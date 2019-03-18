@@ -1,0 +1,80 @@
+
+.page-header{
+  background-color: #282b2e;
+  z-index: 10;
+
+
+
+
+
+}
+
+.logo-area {
+  display: flex;
+  //align-items: center;
+  justify-content: space-between;
+  padding: 0.25em 1em;
+
+  @include tablet {
+    flex-direction: column;
+  }
+
+  .menu-button {
+    color: white;
+    font-size: 2.7rem;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    outline: none;
+
+    @include tablet {
+      display: none;
+    }
+  }
+
+  img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
+    height: 3em;
+    width: 6rem;
+    text-align: center;
+    margin-right: 5px;
+    margin-top: 4px;
+
+    @include tablet {
+      position: absolute;
+      top: 7px;
+      left: 30px;
+      width: 15rem;
+      height: 7em;
+      margin-left: initial;
+    }
+
+    @media only screen and(min-width: 1440px) {
+      width: 24rem;
+      height: 10em;
+      margin-left: calc(1%);
+    }
+  }
+
+  .social {
+    display: none;
+    @include tablet {
+      display: flex;
+      flex-direction: row;
+      position: absolute;
+      top: 14px;
+      right: 3rem;
+      width: 116px;
+      height: 11rem;
+      font-size: 3rem;
+      padding: 0;
+      margin: auto;
+      justify-content: space-between;
+    }
+
+    a { color: $white; }
+  }
+
+}

@@ -2,9 +2,6 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
-app.get('/', (req, res)=>{
-    res.send('Hello, this is the 1st, server route')
-});
 
 //Serves static assets if in prod
 if(process.env.NODE_ENV === 'production'){

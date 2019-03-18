@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Angilla Tattoo Personal Use';
+    src: url('.././fonts/AngillaTattooPersonalUse.woff2') format('woff2'),
+        url('.././fonts/AngillaTattooPersonalUse.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    /**/
+}
+
+@font-face {
+    font-family: 'BRUX';
+    src: url('.././fonts/BRUX-Regular.woff2') format('woff2'),
+        url('.././fonts/BRUX-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Le Super Serif';
+    src: url('.././fonts/LeSuperSerif-SemiBold.woff2') format('woff2'),
+        url('.././fonts/LeSuperSerif-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Deadmobil';
+    src: url('.././fonts/Deadmobil.woff2') format('woff2'),
+        url('.././fonts/Deadmobil.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Le Super Serif';
+    src: url('.././fonts/LeSuperSerif.woff2') format('woff2'),
+        url('.././fonts/LeSuperSerif.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kust';
+    src: url('.././fonts/Kust.woff2') format('woff2'),
+        url('.././fonts/Kust.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ailerons';
+    src: url('.././fonts/Ailerons-Regular.woff2') format('woff2'),
+        url('.././fonts/Ailerons-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kust';
+    src: url('.././fonts/Kust.woff2') format('woff2'),
+        url('.././fonts/Kust.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BRUX';
+    src: url('.././fonts/BRUX-Regular.woff2') format('woff2'),
+        url('.././fonts/BRUX-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Leafy';
+    src: url('.././fonts/Leafy.woff2') format('woff2'),
+        url('.././fonts/Leafy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Standaris';
+    src: url('.././fonts/StandarisRegular.woff2') format('woff2'),
+        url('.././fonts/StandarisRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kust';
+    src: url('.././fonts/Kust.woff2') format('woff2'),
+        url('.././fonts/Kust.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Leafy';
+    src: url('.././fonts/Leafy.woff2') format('woff2'),
+        url('.././fonts/Leafy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
